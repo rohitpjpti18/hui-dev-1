@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { AppBar, Button, IconButton, Toolbar } from "@mui/material";
-import MenuIcon from "@mui/icons-material/menu";
+import MenuIcon from '@mui/icons-material/Menu';
 import Typography from '@mui/material/Typography';
 
 

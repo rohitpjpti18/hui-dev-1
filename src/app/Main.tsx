@@ -4,15 +4,13 @@ import StudentHome from './pages/dashboard/student/Home';
 
 const Main = () =>{
     return (
-        <React.Component>
+        <div>
             <Router>
                 <Routes>
-                    <Route path="/dashboard/student/home">
-                        <StudentHome />
-                    </Route>
+                    <Route path="/dashboard/student/home" element={<StudentHome />} />
                 </Routes>
             </Router>
-        </React.Component>
+        </div>
     )
 }
 
